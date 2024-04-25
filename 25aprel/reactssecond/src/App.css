@@ -1,0 +1,68 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.layout{
+width: 1200px;
+margin: 0, auto;
+}
+#root{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 90px;
+  padding-right: 90px;
+
+}
+button{
+  padding: 10px;
+  background-color: #0D6EFD;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.heros{
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.herotext{
+ width: 636px;
+  font-size: 3rem;
+  color: white;
+  
+}
+.heroinpt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+
+}
+.heroinput{
+  width: 470px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 19px;
+}
+.herosubmit{
+  height: 64px;
+  width: 117px;
+  font-size: 19px;
+  background-color: #287af6b1;
+}
