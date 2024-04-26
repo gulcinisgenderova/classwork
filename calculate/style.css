@@ -1,0 +1,39 @@
+.box{
+    background-color: blueviolet;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+.container{
+    padding: 30px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+input{
+    border-radius: 3px;
+    width: 200px;
+    border: none;
+    padding: 7px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+
+}
+button{
+    border-radius: 2px;
+    width: 100px;
+}
